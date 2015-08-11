@@ -1,0 +1,110 @@
+body{
+	margin: 0;
+    background: url(background.jpg);
+    background-size: 1440px 800px;
+ 	background-repeat:repeat;
+ 	display: compact;
+ 	font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.img {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+body p {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.header h1 {
+    background: #ce2c38;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    height: 140px;
+    margin: 60px auto 0;
+    position: relative;
+    text-align: center;
+    width: 140px;
+    z-index: 10;
+    
+}
+
+.header h1 span {
+    color:#fff;
+    display: block;
+    font-size: 40px;
+    padding: 34px 0 0 0;
+}
+
+.header h1 span+span {
+    color:#000;
+    display: block;
+    font-size: 28px;
+    padding: 0;
+}
+
+.main .container {
+    background:#fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin: -70px auto 80px;
+    padding: 80px;
+    z-index: 0;
+}
+
+h1 {
+    color: #444;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #444;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #ce2c38;
+    font-family: 'Oswald', sans-serif;
+    margin: 20px 0 5px;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #FFFAFA;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin: 15px 0 0 0;
+    text-transform: uppercase;
+}
+
+h5 {
+    color: red;
+	font-size: 12px;   
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.price p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    margin: 26px 0 5px;
+    text-align: right;
+}
+.error {
+	color: #ff0000;
+}
+
+.errorblock {
+	color: #000;
+	background-color: #ffEEEE;
+	border: 3px solid #ff0000;
+	padding: 8px;
+	margin: 16px;
+}
